@@ -5180,12 +5180,12 @@
 	                    { minVersion: '4.5', maxVersion: '4.6', version: this.currentVersion },
 	                    _react2.default.createElement(
 	                        'div',
-	                        { className: 'alert alert-danger' },
-	                        'The next version (5.0) will change how settings are stored and retrieved, so please hit ',
+	                        { className: 'alert alert-warning' },
+	                        'The next version (5.0) will change how settings are stored and retrieved (and won\'t require data connection to open configs either!), so please hit ',
 	                        _react2.default.createElement(
 	                            'strong',
 	                            null,
-	                            '"Save settings"'
+	                            'Save settings'
 	                        ),
 	                        ' at least once while still in version 4.5 to save your settings in a way version 5.0 will be able to read. Version 5.0 should be released ',
 	                        _react2.default.createElement(
